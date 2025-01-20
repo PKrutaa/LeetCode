@@ -6,4 +6,3 @@ class Solution:
                 dict[target - nums[i]] = i
             else:
                 return [dict[nums[i]],i]
-                
