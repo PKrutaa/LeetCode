@@ -9,6 +9,6 @@ class Solution:
             elif num % 5 == 0:
                 list.append("Buzz")
             else:
-                list.append(f"{num}")
+                list.append(str(num))
         return list
                 
